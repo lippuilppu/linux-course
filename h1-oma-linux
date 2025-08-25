@@ -1,0 +1,18 @@
+Tiivistelmä Raportin kirjoittaminen-ohjeesta: 
+
+  Ohje: https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
+
+  -Raportoinnissa tärkeintä on kertoa täsmällisesti, mitä on tehty ja mitä on tapahtunut.
+  -Tämä onnistuu helpoiten, kun tekee raportin ja ottaa muistiinpanoja samalla, kun tekee itse tehtäviä.
+  -Muiden on pystyttävä tehdä samat asiat ja saada sama lopputulos pelkän raportin avulla.
+  -Kaikki yksityiskohdat tulee kirjata riippumatta siitä, onnistuitko vai et.
+  -Tekstin täytyy olla helppolukuista ja se pitää kirjoittaa käyttäen huolellista kieltä.
+  -Eri alustoilla käytetään eri standardeja. Weppisivulla ei tarvitse noudattaa Helian julkaisuohjeita.
+  -Lähteiden viittaus on tärkeätä.
+  -Plagiointi on kiellettyä ja rangaistavaa. Raportoi vain tehdyistä töistä ja noudata tekijänoikeuksia.
+
+Linuxin asennus virtuaalikoneeseen:
+
+  Tähän tehtävään tarvitaan käyttöjärjestelmän lisäksi Virtualbox sekä Debian 13.0.0.
+  
+  
