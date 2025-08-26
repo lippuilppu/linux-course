@@ -36,7 +36,7 @@ Aloitin virtuualikoneen valitsemalla 'Start with GUI' ja sen jälkeen 'Live Syst
 
 Palasin takaisin Live Boot Menuun komennolla sudo reboot ja aloitin varsinaisen asennuksen. Syötin ohjeen mukaiset tiedot ja jatkoin asennukseen, joka onnistui.
   
-Viimeisessä vaiheessa en onnistunut. En saanut apt-get update-komentoa toimimaan. Käytin sudo nano /etc/apt/sources. List-komentoa ja sain listatut komennot lisättyä sinne, mutta komento ei silti toiminut.
+Viimeisessä vaiheessa en onnistunut. En saanut apt-get update-komentoa toimimaan. Kokeilin käyttää sudo nano /etc/apt/sources. List-komentoa ja sain listatut komennot lisättyä sinne, mutta apt-get update-komento ei silti toiminut.
 
   ![Add file: Upload](komentofail.png)
   ![Add file: Upload](etcaptsources.png)
