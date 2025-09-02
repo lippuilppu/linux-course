@@ -6,6 +6,16 @@ Tehtävänanto: https://terokarvinen.com/linux-palvelimet/#h2-komentaja-pingviin
 
 Tein tiivistyksen sivusta: https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited.
 
+-Komentorivin avulla päästään käsiksi hakemistoihin ja käsitellään tiedostoja.
+
+-Komentoja käyttäen siirrytään hakemistosta toiseen. Tekstieditoreja voidaan käyttää tiedostojen käsittelyssä.
+
+-Tärkeimmät ja keskeisimmät hakemistot ovat /, /home/, /home/ilona/, /etc/, /media/ ja /var/log/.
+
+-Valtaosa toiminnoista tehdään ’Minimum Privilege’ käytännöllä. Korkeammalla oikeudella tehdään esim. sovellusten asennuksia ja poistoja, luodaan käyttäjiä ja hallinnoidaan oikeuksia.
+
+-Kaikkea ei tarvitse muistaa. Terminaalissa on help-menu ja komentoterminaali osaa tarvittaessa näyttää miten komennon voi kirjoittaa loppuun tai jopa täyttää sen automaattisesti.
+
 ## a) Micron asennus
 
 Aloitin harjoituksen avaamalla virtuaalikoneen ja ajamalla komennon sudo apt-get update. Micron asennuksen tein noudattamalla Tero Karvisen ohjeistuksia sivulta: https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited.
