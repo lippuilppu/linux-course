@@ -10,19 +10,19 @@ Tein tiivistyksen sivusta: https://terokarvinen.com/2020/command-line-basics-rev
 
 Aloitin harjoituksen avaamalla virtuaalikoneen ja ajamalla komennon sudo apt-get update. Micron asennuksen tein noudattamalla Tero Karvisen ohjeistuksia sivulta: https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited.
 
-![Add file: Upload](2paivitys)
+![Add file: Upload](2paivitys.png)
 
 Vaikka tarvittavan paketin nimi oli tiedossa, kokeilin silti huvikseni komentoa ’Apt-cache search micro’. Terminaaliin ilmestyi pitkä lista, josta löysin halutun sovelluksen. Asensin sen käyttämällä komentoa ’sudo apt-get -y install micro’.
 
-2searchmicro
+![Add file: Upload](2searchmicro.png)
 
 Tämän jälkeen ajoin komennon ’dpkg - - listfiles micro’.
 
-2dpkg
+![Add file: Upload](2dpkg.png)
 
 Varmistin sovelluksen toimivuuden komennolla ’micro’.
 
-2micro
+![Add file: Upload](2micro.png)
 
 ## b) Komentoriviohjelmat
 
@@ -32,11 +32,11 @@ Esimerkki: $ sudo apt-get -y install krita blender vlc tree httpie curl tmux pyt
 
 Ohjelmia etsiessä unohdin käyttää edellistä komentoa ja päädyin lataamaan kaikki yksittäin komennolla ’sudo apt-get -y install’. Pääsijaisesti etsin jotain pientä ja hauskaa, jolla ei ollut isompaa käyttötarkoitusta. Päädyin lataamaan nämä kolme nsnake, sl, cmatrix.
 
-2nsnake
+![Add file: Upload](2nsnakegameover.png)
 
-2sl
+![Add file: Upload](2sl.png)
 
-2cmatrix
+![Add file: Upload](2cmatrix.png)
 
 ## c) FHS
 
@@ -52,18 +52,18 @@ Tämä oli uusi asia, joten googletin sen ja käytin tätä sivua tämän tehtä
 
 Esimerkki: ls -l | more
 
-2pipemore
+![Add file: Upload](2pipemore.png)
 
 ## e) Rauta
 
 Kokeilin suoraan syöttää komennon ’sudo lshw -short -sanitize’, mutta terminaali ei löytänyt komentoa ’lshw’, joten latasin sen ja suoritin komennon uudelleen.
 
-2rauta
+![Add file: Upload](2rauta.png)
 
-2rautatulos
+![Add file: Upload](2rautatulos.png)
 
 https://linuxhandbook.com/lshw-command/. 
 
 ’sudo lshw’ antaa kaiken tiedon koneen raudasta ja ’-short -sanitize’ muotoilee syötetyn tiedon. Komento listasi laitteet ja niiden luokan sekä lyhyen kuvauksen. Listassa oli myös H/W path, jota en entuudesta tuntenut. Löysin foorumilta vuodelta 2001 hyvän selityksen H/W pathille: https://community.hpe.com/t5/hpe-9000-and-hpe-e3000-servers/h-w-path/td-p/2555697. 
 
-2hwpath
+![Add file: Upload](2hwpath.png)
