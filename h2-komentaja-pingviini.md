@@ -118,6 +118,16 @@ Kokeilin aptia ja sen avaamisessa onnistuin.
 
 Aloitin syöttämällä ’man grep’ terminaaliin ja pitkä lista ilmestyi, jossa selitettiin grepin käyttö kokonaisuudessa. Löysin saman ohjeen googlesta, jota käytin lukemisen helpottamiseksi: https://man7.org/linux/man-pages/man1/grep.1.html. 
 
+Päädyin lopuksi kuitenkin hakemaan esimerkkejä täältä: https://www.geeksforgeeks.org/linux-unix/grep-command-in-unixlinux/
+
+Ajattelin aluksi kokeilla komentoja itse, mutta edellisen tehtävän jälkeen en koe saavani hyviä tuloksia.
+
+Sanan hakeminen tiedostosta: grep "python" notes.txt
+
+Sanan hakeminen tiedostosta, jossa on isoja tai pieniä kirjaimia tai molempia: grep -i "UNix" geekfile.txt
+
+Näytä vain täsmäävä string, eikä koko riviä: grep -o "unix" geekfile.txt
+
 ## e) Pipe
 
 Tämä oli uusi asia, joten googletin sen ja käytin tätä sivua tämän tehtävän tekemisessä: https://www.geeksforgeeks.org/linux-unix/piping-in-unix-or-linux/. Pipe eli | merkkiä käytetään kahden komennon yhdistämisessä. Esimerkiksi ’more’-komennon kanssa
@@ -127,7 +137,7 @@ Esimerkki: ls -l | more
 ![Add file: Upload](2pipemore.png)
 
 
-## e) Rauta
+## f) Rauta
 
 Kokeilin suoraan syöttää komennon ’sudo lshw -short -sanitize’, mutta terminaali ei löytänyt komentoa ’lshw’, joten latasin sen ja suoritin komennon uudelleen.
 
@@ -142,3 +152,5 @@ https://linuxhandbook.com/lshw-command/.
 
 ![Add file: Upload](2hwpath.png)
 
+
+En itse valitettavasti osaa ainakaan tässä vaiheessa selittää ja analysoida listausta paremmin.
